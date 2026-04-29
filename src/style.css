@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 1rem/1.6 Georgia, serif;
+  background: #fff;
+  color: #111;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  background: #111;
+  color: #fff;
+}
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav a:hover {
+  color: #fff;
+}
+section {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.card {
+  flex: 1 1 260px;
+  max-width: 300px;
+  background: #f5f5f5;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.card h3 {
+  font-size: 1.1rem;
+  margin: 0.75rem 1rem 0.25rem;
+}
+.card p {
+  font-size: 0.9rem;
+  margin: 0 1rem 1rem;
+  color: #444;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 480px;
+}
+input, textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  font: inherit;
+}
+button {
+  padding: 0.7rem 1.2rem;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  align-self: flex-start;
+}
+button:hover {
+  background: #333;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+[data-theme="dark"] body {
+  background: #111;
+  color: #eee;
+}
+[data-theme="dark"] header {
+  background: #000;
+}
+[data-theme="dark"] .card {
+  background: #1a1a1a;
+}
+[data-theme="dark"] .card p {
+  color: #aaa;
+}
+[data-theme="dark"] input,
+[data-theme="dark"] textarea {
+  background: #1a1a1a;
+  border-color: #333;
+  color: #eee;
+}
+[data-theme="dark"] button {
+  background: #eee;
+  color: #111;
+}
+[data-theme="dark"] button:hover {
+  background: #ccc;
+}
+[data-theme="dark"] footer {
+  color: #666;
+}
+.theme-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  .card {
+    max-width: 100%;
+  }
+  form {
+    max-width: 100%;
+  }
+}
