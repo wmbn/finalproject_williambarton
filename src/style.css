@@ -33,7 +33,7 @@ nav a {
   font-size: 0.95rem;
 }
 nav a:hover {
-  color: #fff;
+  color: #b7e4c7;
 }
 section {
   max-width: 960px;
@@ -98,7 +98,7 @@ button {
   align-self: flex-start;
 }
 button:hover {
-  background: #333;
+  background: #2d6a4f;
 }
 footer {
   text-align: center;
@@ -108,7 +108,7 @@ footer {
 }
 [data-theme="dark"] body {
   background: #111;
-  color: #eee;
+  color: #d8f3dc;
 }
 [data-theme="dark"] header {
   background: #000;
@@ -117,23 +117,23 @@ footer {
   background: #1a1a1a;
 }
 [data-theme="dark"] .card p {
-  color: #aaa;
+  color: #b7e4c7;
 }
 [data-theme="dark"] input,
 [data-theme="dark"] textarea {
   background: #1a1a1a;
-  border-color: #333;
-  color: #eee;
+  border-color: #2d6a4f;
+  color: #d8f3dc;
 }
 [data-theme="dark"] button {
-  background: #eee;
-  color: #111;
+  background: #2d6a4f;
+  color: #fff;
 }
 [data-theme="dark"] button:hover {
-  background: #ccc;
+  background: #40916c;
 }
 [data-theme="dark"] footer {
-  color: #666;
+  color: #95d5b2;
 }
 .theme-btn {
   background: none;
