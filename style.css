@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  font: 1rem/1.6 Georgia, serif;
-  background: #fff;
+  font: 1rem/1.6 Inter, system-ui, sans-serif;
+  background: #f8f9fa;
   color: #111;
 }
 header {
@@ -19,7 +21,7 @@ header {
 }
 .logo {
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   text-decoration: none;
 }
@@ -31,6 +33,7 @@ nav a {
   color: #ccc;
   text-decoration: none;
   font-size: 0.95rem;
+  font-weight: 500;
 }
 nav a:hover {
   color: #b7e4c7;
@@ -50,6 +53,7 @@ section {
   flex: 1 1 260px;
   max-width: 300px;
   background: #f5f5f5;
+  border: 1px solid #111;
 }
 .card img {
   width: 100%;
@@ -59,6 +63,7 @@ section {
 }
 .card h3 {
   font-size: 1.1rem;
+  font-weight: 600;
   margin: 0.75rem 1rem 0.25rem;
 }
 .card p {
@@ -68,6 +73,7 @@ section {
 }
 h1 {
   font-size: 2rem;
+  font-weight: 700;
   margin-bottom: 0.75rem;
 }
 p {
@@ -95,6 +101,7 @@ button {
   border: none;
   cursor: pointer;
   font: inherit;
+  font-weight: 600;
   align-self: flex-start;
 }
 button:hover {
@@ -115,6 +122,7 @@ footer {
 }
 [data-theme="dark"] .card {
   background: #1a1a1a;
+  border-color: #d8f3dc;
 }
 [data-theme="dark"] .card p {
   color: #b7e4c7;
