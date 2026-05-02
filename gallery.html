@@ -16,9 +16,19 @@
     </nav>
   </header>
   <main>
-    <section class="gallery-feature">
+    <section class="gallery-feature" id="feature">
       <h1>Gallery</h1>
-      <div class="card feature"><img src="Orchidaceae.jpg" alt="Orchidaceae"><div class="card-text"><h3>Orchidaceae</h3><p>28,000 Cosmopolitan Species That Ostensibly Resemble Insects</p></div></div>
+      <div class="card feature">
+        <img src="Orchidaceae.jpg" alt="Orchidaceae" id="feature-img">
+        <div class="card-text">
+          <h3 id="feature-title">Orchidaceae</h3>
+          <p id="feature-desc">28,000 Cosmopolitan Species That Ostensibly Resemble Insects</p>
+          <div class="cycle-btns">
+            <button id="prev" aria-label="Previous">←</button>
+            <button id="next" aria-label="Next">→</button>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="gallery-grid">
       <div class="card"><img src="Asteraceae.jpg" alt="Asteraceae"><h3>Asteraceae</h3><p>32,000 Species and Composite Flower Heads Actually Made of Several Florets</p></div>
